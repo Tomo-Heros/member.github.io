@@ -1,0 +1,212 @@
+*{
+    box-sizing:border-box;
+  }
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+  
+  a{
+      text-decoration: none;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    background-size: cover;
+    color: white;
+    padding-top: 30px;
+    margin-top: 0px;
+  }
+
+  .teams{
+    font-size:50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:1px 0 5px black;
+    margin-bottom: 0px;
+  }
+
+  .slogan {
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-shadow:1px 0 5px black;
+  }
+  
+  header {
+    height: 70px;
+    width: 100%;
+    background-color:rgba(189, 35, 35, 0.9);
+    position:fixed;
+    top:0;
+    z-index:10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left a{
+    float: left;
+    color:white;
+    line-height: 30px;
+    font-weight: bolder;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:1px 0 5px black;
+    font-size:20px;
+    padding-bottom:10px;
+    margin-top: 20px;
+  }
+  
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .header-right a {
+    float:right;
+  }
+  
+  .team{
+    line-height: 70px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+    text-shadow:1px 0 5px black;
+  }
+  .team:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+  }
+
+  .member{
+    line-height: 70px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 0.5s;
+    text-shadow:1px 0 5px black;
+  }
+
+ 
+
+
+  .contact{
+    line-height: 70px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+    text-shadow:1px 0 5px black;
+  }
+
+  .contact:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+  }
+
+  .contents{
+      margin: 0%;
+      padding: 0%;
+  }
+
+  .members{
+      float: left;
+      width: 40%;
+      margin-left: 50px;
+  }
+
+  .apache{
+      float: right;
+      width: 50%;
+      margin-top: 0px;
+  }
+
+
+  .screen{
+      float: left;
+  }
+
+  .heading h3 {
+    font-weight: normal;
+  }
+
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  .sns-wrapper{
+      background-color: white;
+      padding-bottom: 700px;
+  }
+
+  .title{
+      float: left;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      margin-bottom: 0%;
+      font-family: 'Courier New', Courier, monospace;
+  }
+
+  .you{
+    background-color:rgb(20, 47, 82);
+    padding-left: 185px;
+    padding-right: 185px;
+    margin-left: 20px;
+    margin-right: 75px;
+    text-align: center;
+  }
+
+  .insta{
+    background-color:rgb(20, 47, 82);
+    padding-left: 180px;
+    padding-right: 190px;
+    text-align: center;
+  }
+ 
+
+
+  .content{
+      float: left;
+      padding-left: 20px;
+      padding-right: 75px;
+      margin-right: 0px;
+  }
+
+  footer p1{
+    color: white;
+    font-weight:bolder;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:1px 0 5px black;
+    font-size: 30px;
+  }
+
+  footer p2 {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    background-color: rgb(131, 21, 21);
+    margin-top: 700px;
+    padding-top: 20px;
+    padding-bottom:20px;
+  }
